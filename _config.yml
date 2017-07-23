@@ -1,0 +1,8 @@
+name: PHPWomenBR
+description: PHPWomen Brasil
+keywords: PHP,women,PHPWomen 
+paginate: 10
+baseurl: ''
+---
+gems:
+  - jekyll-menus
