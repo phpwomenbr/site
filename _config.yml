@@ -1,8 +1,10 @@
-name: PHPWomenBR
-description: PHPWomen Brasil
+name: PHPWomen
+sub_name: BR
+email: 'contato@phpwomen.org.br'
+
+title: 'PHPWomenBR'
+description: PHPWomen BR site
 keywords: PHP,women,PHPWomen 
-paginate: 10
 baseurl: ''
----
-gems:
-  - jekyll-menus
+
+plugins_dir: ['jekyll-menus']
