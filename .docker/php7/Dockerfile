@@ -2,7 +2,9 @@ FROM php:latest
 
 RUN apt-get update
 
-RUN apt-get install -y git
+RUN apt-get install -y \
+    git \
+    unzip
 
 RUN pecl install xdebug-2.9.0 \
     && docker-php-ext-enable xdebug
