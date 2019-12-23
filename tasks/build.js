@@ -37,6 +37,7 @@ module.exports = {
             port: port,
             proxy: proxy,
             server: proxy ? null : { baseDir: 'build_' + env + '/' },
+            open: false
         },
         {
             reload: false,
