@@ -7,3 +7,10 @@ services:
     volumes:
       - .:/jigsaw
       - ~/.composer:/root/.composer
+  jekyll-old:
+    image: php:latest
+    volumes:
+      - ./build_jekyll:/jekyll
+    ports:
+      - 4000:4000
+    command: php -S 0.0.0.0:4000 -t /jekyll
