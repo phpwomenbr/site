@@ -1,8 +1,8 @@
 ---
-layout: default
+extends: _layouts.master
 title: "História"
-url: "/history"
 ---
+@section('content')
 <section class="wrapper style1">
 	<div class="container">
 		<div class="row">
@@ -25,3 +25,4 @@ url: "/history"
 		</div>
 	</div>
 </section>
+@endsection

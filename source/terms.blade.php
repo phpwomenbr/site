@@ -1,7 +1,7 @@
 ---
-layout: default
-url: "/terms"
+extends: _layouts.master
 ---
+@section('content')
 <section class="wrapper style1">
 	<div class="container">
 		<h2>Codigo de Conduta da Comunidade</h2>	
@@ -31,3 +31,4 @@ Entendemos como assédio e constrangimento:</p>
 	</div>
 
 </section>
+@endsection
