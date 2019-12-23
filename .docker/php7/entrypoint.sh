@@ -1,1 +1,2 @@
-php -S 0.0.0.0:8000
+vendor/bin/jigsaw build
+vendor/bin/jigsaw serve --host=0.0.0.0
