@@ -1,9 +1,8 @@
-version: '2'
+version: '3.3'
 services:
-  jekyll:
-    image: jekyll/jekyll:3.4.3
-    command: jekyll serve --watch --incremental
+  php7:
+    build: .docker/php7
     ports:
-        - 4000:4000
+        - 8000:8000
     volumes:
-        - .:/srv/jekyll
+        - .:/jigsaw
