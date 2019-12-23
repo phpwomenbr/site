@@ -1,8 +1,8 @@
 ---
-layout: default
+extends: _layouts.master
 title: "Contribua"
-url: "/help-us"
 ---
+@section('content')
 <section class="wrapper style1">
 	<div class="container">
 		<div class="row">
@@ -58,3 +58,4 @@ url: "/help-us"
 </section>
 
 </section>
+@endsection

@@ -1,5 +1,7 @@
 ---
+extends: _layouts.master
 title: Eventos
-layout: default
 ---
-{% include event_list.html %}
+@section('content')
+@include('_events.index')
+@endsection

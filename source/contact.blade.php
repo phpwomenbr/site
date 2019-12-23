@@ -1,6 +1,5 @@
 ---
 layout: default
-url: "/contact"
 ---
 <section class="wrapper style1">
 	<div class="container">

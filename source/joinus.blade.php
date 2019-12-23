@@ -1,7 +1,7 @@
 ---
-layout: default
-url: "/joinus"
+extends: _layouts.master
 ---
+@section('content')
 <section class="wrapper style1">
 	<div class="container">
 		<h2>Junte-se a nós =)</h2>
@@ -59,3 +59,4 @@ url: "/joinus"
 		</div>
 	</div>
 </section>
+@endsection
