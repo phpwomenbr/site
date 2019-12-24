@@ -1,5 +1,20 @@
 {
+    "name": "phpwomenbr/site",
+    "description": "Site da comunidade PHPWomen BR",
+    "type": "project",
     "require": {
         "tightenco/jigsaw": "^1.3"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "npm install"
+        ],
+        "dev": [
+            "npm run watch"
+        ],
+        "prod": [
+            "npm run production",
+            "jigsaw build production"
+        ]
     }
 }
