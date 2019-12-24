@@ -9,10 +9,3 @@ services:
       - ~/.composer:/root/.composer
     environment:
       XDEBUG_CONFIG: "remote_host=172.17.0.1 remote_enable=1"
-  jekyll-old:
-    image: php:latest
-    volumes:
-      - ./build_jekyll:/jekyll
-    ports:
-      - 4000:4000
-    command: php -S 0.0.0.0:4000 -t /jekyll
