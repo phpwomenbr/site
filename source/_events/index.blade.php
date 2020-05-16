@@ -16,8 +16,8 @@
 					<div class="box post">
 						<a href="#" class="image left"><img src="/assets/images/events/womentechmakers/1.jpeg" alt="" /></a>
 						<div class="inner">
-							<h3>WomenTechMarkers - <em>19-02-2016</em></h3>
-							<p>Encontro de grupo de mulheres que lutam por igualdade na área técnica, sem preconceito e discriminação... <a href="#">continuar lendo</a></p>
+							<h3>Meetup PHPWomen - <em>12-02-2020</em></h3>
+							<p>Teste de mulheres que lutam por igualdade na área técnica, sem preconceito e discriminação... <a href="#">continuar lendo</a></p>
 						</div>
 					</div>
 				</section>
