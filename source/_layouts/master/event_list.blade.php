@@ -33,7 +33,7 @@
 				</section>
 				<section class="6u">
 					<div class="box post">
-						<a href="#" class="image left"><img src="assets/images/events/symfony/jucy-3.png" alt="" /></a>
+						<a href="https://amsterdam2019.symfony.com/speakers" class="image left"><img src="assets/images/events/symfony/jucy-3.png" alt="" /></a>
 						<div class="inner">
 							<h3>SymfonyCon</em></h3>
 							<p>Participamos de vários eventos e conferências de PHP pelo Brasil e pelo mundo. Este é o registro da nossa voluntária Jucy Cabrera na SymfonyCon.</p>
