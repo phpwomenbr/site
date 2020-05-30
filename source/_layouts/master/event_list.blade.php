@@ -4,19 +4,19 @@
 			<div class="row">
 				<section class="6u">
 					<div class="box post">
-						<a href="#" class="image left"><img src="/assets/images/events/handson/4.jpg" alt="" /></a>
+						<a href="https://www.instagram.com/phpwomenbr/" class="image left"><img src="/assets/images/events/workshop/workshop.png" alt="" /></a>
 						<div class="inner">
-							<h3>1# Oficina - <em>11-06-2016</em></h3>
-							<p>1ª Oficina do grupo PHPWomen no Brasil contou com o apoio do Google ... <a href="#">continuar lendo</a></p>
+							<h3>Workshop de PHP Online</h3>
+							<p>Todas as quintas às 19hs tá rolando nosso Workshop de PHP com aulas 100% práticas dessa linguagem que amamos...<a href="https://www.instagram.com/phpwomenbr/">continuar lendo</a></p>
 						</div>
 					</div>
 				</section>
 				<section class="6u">
 					<div class="box post">
-						<a href="#" class="image left"><img src="/assets/images/events/womentechmakers/1.jpeg" alt="" /></a>
+						<a href="https://t.me/PHPWomenBR" class="image left"><img src="/assets/images/events/telegram/telegramBR-01.png" alt="" /></a>
 						<div class="inner">
-							<h3>WomenTechMarkers - <em>19-02-2016</em></h3>
-							<p>Encontro de grupo de mulheres que lutam por igualdade na área técnica, sem preconceito e discriminação... <a href="#">continuar lendo</a></p>
+							<h3>Grupo do Telegram</h3>
+							<p>Participe do nosso grupo exclusivo do Telegram e fique por dentro de todas as novidades da comunidade.<a href="#"></a></p>
 						</div>
 					</div>
 				</section>
@@ -24,19 +24,19 @@
 			<div class="row">
 				<section class="6u">
 					<div class="box post">
-						<a href="#" class="image left"><img src="/assets/images/events/seminariolocaweb/1.png" alt="" /></a>
+						<a href="#" class="image left"><img src="/assets/images/events/oficina-senac/oficina-alunos.jpg" alt="" /></a>
 						<div class="inner">
-							<h3>Seminário Locaweb - <em>30-01-2016</em></h3>
-							<p>Um dos principais eventos do ano, contou com um painel técnico formado por mulheres influentes na comunidade... <a href="#">continuar lendo</a></p>
+							<h3>Oficinas de PHP</h3>
+							<p>Amamos compartilhar conhecimento e este evento foi bem especial! Fizemos uma oficina da PHP para iniciantes que deram os primeiros passos no mundo da programação.</p>
 						</div>
 					</div>
 				</section>
 				<section class="6u">
 					<div class="box post">
-						<a href="#" class="image left"><img src="assets/images/events/fablab/1.jpg" alt="" /></a>
+						<a href="https://amsterdam2019.symfony.com/speakers" class="image left"><img src="assets/images/events/symfony/jucy-3.png" alt="" /></a>
 						<div class="inner">
-							<h3>Fab Lab - <em>12-03-2016</em></h3>
-							<p>Um encontro de mulheres que buscam e fazem diferença na sociedade, por um lugar mais justo e igualitário... <a href="#">continuar lendo</a></p>
+							<h3>SymfonyCon</em></h3>
+							<p>Participamos de vários eventos e conferências de PHP pelo Brasil e pelo mundo. Este é o registro da nossa voluntária Jucy Cabrera na SymfonyCon.</p>
 						</div>
 					</div>
 				</section>
