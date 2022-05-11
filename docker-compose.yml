@@ -8,4 +8,4 @@ services:
       - .:/jigsaw
       - ~/.composer:/root/.composer
     environment:
-      XDEBUG_CONFIG: "remote_host=172.17.0.1 remote_enable=1"
+      XDEBUG_CONFIG: "client_host=172.17.0.1 client_port=9003 start_with_request=yes"

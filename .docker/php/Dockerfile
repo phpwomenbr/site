@@ -23,5 +23,7 @@ RUN echo "source ${NVM_DIR}/nvm.sh" > $HOME/.bashrc
 
 WORKDIR /jigsaw
 
+COPY config/php.ini /usr/local/etc/php/conf.d/
+
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["bash", "/usr/local/bin/entrypoint.sh"]
