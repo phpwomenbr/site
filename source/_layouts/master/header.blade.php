@@ -28,17 +28,14 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li>
+							<li class="{{ empty($page->getPath()) ? 'current' : '' }}">
 								<a href="/">Home</a>
 							</li>
 							@foreach ($menu as $item)
-								<li>
+								<li class="{{ $item->selected($page->getPath()) }}"> 
 									<a href="{{ $item->getPath() }}">{{ $item->title }}</a>
 								</li>
 							@endforeach
-      						<li>
-					          <a href="/contact">Contato</a>
-					     	</li>
 						</ul>
 					</nav>
 

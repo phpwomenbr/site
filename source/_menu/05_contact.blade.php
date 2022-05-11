@@ -1,5 +1,7 @@
-@extends('_layouts.master')
-
+---
+extends: _layouts.master
+title: "Contato"
+---
 @section('content')
 <section class="wrapper style1">
 	<div class="container">

@@ -13,8 +13,12 @@ return [
     'collections' => [
         'menu' => [
             'path' => function($page) {
-                return $page->_meta->filename;
-            }
+                return substr($page->_meta->filename, 3);
+            },
+            'selected' => function ($page, $section) {
+                // return $page->getPath(). '#'.$section;
+                return $page->getPath() === $section ? 'current' : '';
+            },
         ]
     ]
 ];
