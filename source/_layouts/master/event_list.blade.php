@@ -24,7 +24,7 @@
 			<div class="row">
 				<section class="6u">
 					<div class="box post">
-						<a href="#" class="image left"><img src="/assets/images/events/oficina-senac/oficina-alunos.jpg" alt="" /></a>
+						<a href="https://www.instagram.com/phpwomenbr/" class="image left"><img src="/assets/images/events/oficina-senac/oficina-alunos.jpg" alt="" /></a>
 						<div class="inner">
 							<h3>Oficinas de PHP</h3>
 							<p>Amamos compartilhar conhecimento e este evento foi bem especial! Fizemos uma oficina da PHP para iniciantes que deram os primeiros passos no mundo da programação.</p>
@@ -33,10 +33,10 @@
 				</section>
 				<section class="6u">
 					<div class="box post">
-						<a href="https://amsterdam2019.symfony.com/speakers" class="image left"><img src="assets/images/events/symfony/jucy-3.png" alt="" /></a>
+						<a href="https://symfonycasts.com/screencast/symfonycon2019/symfony-serializer-there-and-back-again" class="image left"><img src="assets/images/events/symfony/jucy-3.png" alt="" /></a>
 						<div class="inner">
 							<h3>SymfonyCon</em></h3>
-							<p>Participamos de vários eventos e conferências de PHP pelo Brasil e pelo mundo. Este é o registro da nossa voluntária Jucy Cabrera na SymfonyCon.</p>
+							<p>Participamos de vários eventos e conferências de PHP pelo Brasil e pelo mundo e este foi um dos registros da SymfonyCon em Amsterdam, onde fomos representadas por Diana Arnos e Jucy Cabrera. </p>
 						</div>
 					</div>
 				</section>
