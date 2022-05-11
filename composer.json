@@ -13,8 +13,8 @@
             "npm run watch"
         ],
         "prod": [
-            "npm run production",
-            "jigsaw build production"
+            "npm run prod",
+            "jigsaw build prod"
         ]
     }
 }
