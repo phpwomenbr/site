@@ -6,7 +6,7 @@ RUN apt-get install -y \
     git \
     unzip
 
-RUN pecl install xdebug-2.9.0 \
+RUN pecl install xdebug-3.1.4 \
     && docker-php-ext-enable xdebug
 
 RUN curl https://getcomposer.org/composer.phar --output /usr/bin/composer

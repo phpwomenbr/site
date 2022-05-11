@@ -6,7 +6,7 @@
 			<h3>{{ post.title }}</h3>
 			{{ post.excerpt }}
 			<footer>
-				<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
+				<a href="{{ $page->getUrl() }}{{ post.url }}" class="button">Continue Reading</a>
 			</footer>
 		</section>
 	{% endfor %}

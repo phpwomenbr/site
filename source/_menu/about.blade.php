@@ -3,8 +3,8 @@ extends: _layouts.master
 title: "Quem somos"
 ---
 @section('content')
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jquery-ui-style.css" />
-<script src="{{ site.baseurl }}/assets/js/jquery-ui.js"></script>
+<link rel="stylesheet" href="{{ $page->getUrl() }}/assets/css/jquery-ui-style.css" />
+<script src="{{ $page->getUrl() }}/assets/js/jquery-ui.js"></script>
 <section class="wrapper style1">
   <div class="container">
     <div class="row">
