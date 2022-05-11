@@ -20,32 +20,32 @@ title: "Quem somos"
             <img src="https://avatars2.githubusercontent.com/u/1061875?v=3&s=460" class="image profile" /><br>Thamara Hessel
           </div>
           <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Ariana Kataoka
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Ariana Kataoka
           </div>
           <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Danielle Campos
-          </div>
-    </div>
-    <div class="row">
-          <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Diana Arnos
-          </div>
-          <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Eilem Gomes
-          </div>
-          <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Gabriela Davila
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Danielle Campos
           </div>
     </div>
     <div class="row">
           <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Cristina Luz
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Diana Arnos
           </div>
           <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Jucy
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Eilem Gomes
           </div>
           <div class="4u">
-            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Beatriz
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Gabriela Davila
+          </div>
+    </div>
+    <div class="row">
+          <div class="4u">
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Cristina Luz
+          </div>
+          <div class="4u">
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Jucy
+          </div>
+          <div class="4u">
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Beatriz
           </div>
     </div>
   </div>
