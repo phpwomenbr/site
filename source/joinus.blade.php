@@ -13,50 +13,69 @@ extends: _layouts.master
 		</div>
 
 		<div class="12u">
-			<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdfL_6GnE12yiY0qleLMVAOrtj6vmtV7GIOBq8MJIRa41-TlA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-					<div class="row">
-						<div class="4u">
-							<input type="text" name="entry.121771905" id="entry.121771905" placeholder="Nome" required/>
-						</div>
-						<div class="4u">
-							<input type="email" name="entry.1211919314" id="entry.1211919314" placeholder="Email" required/>
-						</div>
+			<form name="form" id="form" enctype="text/plain">
+				<div class="row">
+					<div class="4u">
+						<input type="text" name="nome" id="nome" placeholder="Nome" required/>
 					</div>
-					<div class="row">
-						<div class="4u">
-							<input type="text" name="entry.51849938" id="entry.51849938" placeholder="Cidade / Estado " required/>
-						</div>
-						<div class="4u">
-							<input type="email" name="entry.364574701" id="entry.364574701" placeholder="Sua idade" required/>
-						</div>
+					<div class="4u">
+						<input type="email" name="email" id="email" placeholder="Email" required/>
 					</div>
-					<div class="row">
-						<div class="4u">
-						<label>Quero receber sobre:</label>
-							<input type="checkbox" name="entry.1138873067" value="Reuniões" required > Reuniões<br>
-							<input type="checkbox" name="entry.1138873067" value="Hangouts" required > Hangouts<br>
-							<input type="checkbox" name="entry.1138873067" value="Eventos" required > Eventos<br>
-							<input type="checkbox" name="entry.1138873067" value="Cursos" required > Cursos<br>
-							<input type="checkbox" name="entry.1138873067" value="Todas" required > Todas as anteriores
-						</div>
+				</div>
+				<div class="row">
+					<div class="4u">
+						<input type="text" name="cidade" id="cidade" placeholder="Cidade / Estado " required/>
 					</div>
+					<div class="4u">
+						<input type="number" name="idade" id="idade" placeholder="Sua idade" required/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="4u">
+					<label>Quero receber sobre:</label>
+						<input type="checkbox" name="sobre" value="116" > Reuniões<br>
+						<input type="checkbox" name="sobre" value="117" > Eventos<br>
+						<input type="checkbox" name="sobre" value="118" > Cursos<br>
+					</div>
+				</div>
 				<div class="row half">
 					<div class="12u">
 						<ul class="actions">
-							<li><input type="submit" class="button alt" value="Enviar" /></li>
+							<li><input type="submit" id="submit" class="button alt" value="Enviar" /></li>
 						</ul>
 					</div>
 				</div>
 			</form>
-			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-			<script type="text/javascript">var submitted=false;</script>
-			<script type="text/javascript">
-			  $('#gform').on('submit', function(e) {
-			  $('#gform *').fadeOut(2000);
-			  $('#gform').prepend('Obrigada! Seu envio foi concluído =) ');
-			  });
-			</script>
 		</div>
 	</div>
 </section>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#form").submit(function(e){
+		e.preventDefault();
+		var sobre = [];
+		$("input[name='sobre']:checked").each(function(){
+			sobre.push(this.value);
+		})
+		$.ajax({
+			url: 'https://cloud.phpwomen.org.br/ocs/v2.php/apps/forms/api/v1.1/submission/insert',
+			crossDomain: true,
+      		headers: {
+				'OCS-APIRequest': true
+			},
+			type : "POST",
+			dataType : 'json',
+			data : {"formId":11,"answers":{"66":[$("#nome").val()],"67":[$("#email").val()],"68":[$("#cidade").val()],"69":["idade"],"72":sobre}},
+			success : function(result) {
+				console.log(result);
+			},
+			error: function(xhr, resp, text) {
+				console.log(xhr, resp, text);
+			}
+		})
+		$('#form *').fadeOut(2000)
+		$('#form').prepend('Obrigada! Seu envio foi concluído =) ');
+	});
+});
+</script>
 @endsection
