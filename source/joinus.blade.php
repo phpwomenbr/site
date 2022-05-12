@@ -61,7 +61,9 @@ $(document).ready(function(){
 			url: 'https://cloud.phpwomen.org.br/ocs/v2.php/apps/forms/api/v1.1/submission/insert',
 			crossDomain: true,
       		headers: {
-				'OCS-APIRequest': true
+				'Access-Control-Allow-Origin': '*',
+				'OCS-APIRequest': true,
+				'Accept': 'application/json'
 			},
 			type : "POST",
 			dataType : 'json',
