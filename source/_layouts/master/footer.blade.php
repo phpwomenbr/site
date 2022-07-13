@@ -42,7 +42,7 @@
 									<h3>Empresas que nos apoiam</h3>
 									<ul class="links">
 										<li>
-											<a href="https://librecode.coop/" target="_blank">Librecode</a><br>
+											<a href="https://librecode.coop/" target="_blank">LibreCode</a><br>
 											<a href="https://www.locaweb.com.br/" target="_blank">Locaweb</a><br>
 											<a href="https://www.rj.senac.br/" target="_blank">SenacRJ</a><br>
 											<a href="https://www.rj.senac.br/" target="_blank">E muitas outras...<i class="icon fa-heart"></i></a>
