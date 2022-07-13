@@ -39,11 +39,13 @@
 									</ul>
 								</section>
 								<section class="4u">
-									<h3>Eventos que apoiamos</h3>
+									<h3>Empresas que nos apoiam</h3>
 									<ul class="links">
 										<li>
-											<a href="https://br.darkmiratour.com/" target="_blank">Darkmiratour</a><br>
-											<a href="https://phpexperience.imasters.com.br/" target="_blank">PHPeXperience</a>
+											<a href="https://librecode.coop/" target="_blank">Librecode</a><br>
+											<a href="https://www.locaweb.com.br/" target="_blank">Locaweb</a><br>
+											<a href="https://www.rj.senac.br/" target="_blank">SenacRJ</a><br>
+											<a href="https://www.rj.senac.br/" target="_blank">E muitas outras...<i class="icon fa-heart"></i></a>
 										</li>
 									</ul>
 								</section>
