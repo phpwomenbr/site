@@ -57,9 +57,11 @@
 				<!-- Icons -->
 					<ul class="icons">
 						<li><a href="https://twitter.com/phpwomenbr" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/groups/elephants.together" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/phpwomenbr" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.facebook.com/people/PHPWomenBR/100064752907241/" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/company/phpwomenbr" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://github.com/phpwomenbr/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						<li><a href="https://www.linkedin.com/groups/12047071" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						
 					</ul>
 
 				<!-- Copyright -->
