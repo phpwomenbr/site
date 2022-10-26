@@ -15,6 +15,18 @@ title: "Quem somos"
 
     <div class="row">
           <div class="4u">
+            <img src="https://avatars.githubusercontent.com/u/2983739?v=4" class="image profile" /><br>Adriele Ribeiro
+          </div>
+          <div class="4u">
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Ariana Kataoka
+          </div>
+          <div class="4u">
+            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Danielle Campos
+          </div>
+    </div>
+
+    <div class="row">
+          <div class="4u">
             <img src="https://avatars2.githubusercontent.com/u/1061875?v=3&s=460" class="image profile" /><br>Thamara Hessel
           </div>
           <div class="4u">
