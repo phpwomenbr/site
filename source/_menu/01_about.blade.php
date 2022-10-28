@@ -18,12 +18,12 @@ title: "Quem somos"
             <img src="https://avatars.githubusercontent.com/u/2983739?v=4" class="image profile" /><br>Adriele Ribeiro
           </div>
           <div class="4u">
-            <img src="https://avatars.githubusercontent.com/u/509607?v=4" class="image profile" /><br>Ariana Kataoka
-          </div>
-          <div class="4u">
             <img src="https://avatars.githubusercontent.com/u/26097287?v=4" class="image profile" /><br>Daiane Alves
           </div>
-    </div>
+          <div class="4u">
+          <img src="https://avatars.githubusercontent.com/u/1204984?v=4" class="image profile" /><br>Eilem Gomes
+          </div>
+          </div>
 
     <div class="row">
           <div class="4u">
@@ -41,10 +41,10 @@ title: "Quem somos"
             <img src="/assets/images/person/404.jpg" class="image profile" /><br>Diana Arnos
           </div>
           <div class="4u">
-            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Eilem Gomes
+          <img src="https://avatars2.githubusercontent.com/u/1061875?v=3&s=460" class="image profile" /><br>Thamara Hessel
           </div>
           <div class="4u">
-            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Gabriela Davila
+          <img src="https://avatars.githubusercontent.com/u/509607?v=4" class="image profile" /><br>Ariana Kataoka
           </div>
     </div>
     <div class="row">
