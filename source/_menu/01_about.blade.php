@@ -52,7 +52,7 @@ title: "Quem somos"
             <img src="/assets/images/person/404.jpg" class="image profile" /><br>Cristina Luz
           </div>
           <div class="4u">
-            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Jucy
+            <img src="/assets/images/person/jucy.jpg" class="image profile" /><br>Jucy Cabrera
           </div>
           <div class="4u">
             <img src="/assets/images/person/404.jpg" class="image profile" /><br>Beatriz
