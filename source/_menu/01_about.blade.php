@@ -27,13 +27,13 @@ title: "Quem somos"
 
     <div class="row">
           <div class="4u">
-            <img src="https://avatars2.githubusercontent.com/u/1061875?v=3&s=460" class="image profile" /><br>Thamara Hessel
+            <img src="/assets/images/person/bruna_leiras.jpg" class="image profile" /><br>Bruna Leiras
           </div>
           <div class="4u">
             <img src="https://avatars.githubusercontent.com/u/1173458?v=4" class="image profile" /><br>Livia Gouvêa
           </div>
           <div class="4u">
-            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Danielle Campos
+            <img src="/assets/images/person/buna_santos.jpg" class="image profile" /><br>Bruna Santos
           </div>
     </div>
     <div class="row">
