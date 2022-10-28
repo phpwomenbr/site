@@ -21,7 +21,7 @@ title: "Quem somos"
             <img src="https://avatars.githubusercontent.com/u/509607?v=4" class="image profile" /><br>Ariana Kataoka
           </div>
           <div class="4u">
-            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Danielle Campos
+            <img src="https://avatars.githubusercontent.com/u/26097287?v=4" class="image profile" /><br>Daiane Alves
           </div>
     </div>
 
