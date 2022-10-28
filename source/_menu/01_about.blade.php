@@ -38,7 +38,7 @@ title: "Quem somos"
     </div>
     <div class="row">
           <div class="4u">
-            <img src="/assets/images/person/404.jpg" class="image profile" /><br>Diana Arnos
+            <img src="https://avatars.githubusercontent.com/u/6060754?v=4" class="image profile" /><br>Diana Arnos
           </div>
           <div class="4u">
           <img src="https://avatars2.githubusercontent.com/u/1061875?v=3&s=460" class="image profile" /><br>Thamara Hessel
